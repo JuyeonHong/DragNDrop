@@ -9,5 +9,19 @@
 import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var imgView: UIImageView!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+    var imgString: String!{
+        didSet{
+            setUI()
+        }
+    }
+    
+    func setUI(){
+        imgView.image = UIImage(named: imgString)
+    }
 }
