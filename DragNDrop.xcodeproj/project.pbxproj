@@ -12,6 +12,7 @@
 		5762595C2317571B005F3343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5762595A2317571B005F3343 /* Main.storyboard */; };
 		5762595E2317571C005F3343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5762595D2317571C005F3343 /* Assets.xcassets */; };
 		576259612317571C005F3343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5762595F2317571C005F3343 /* LaunchScreen.storyboard */; };
+		5762596923175900005F3343 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762596823175900005F3343 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5762595D2317571C005F3343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576259602317571C005F3343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		576259622317571C005F3343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5762596823175900005F3343 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				576259562317571B005F3343 /* AppDelegate.swift */,
+				5762596823175900005F3343 /* CollectionViewCell.swift */,
 				576259582317571B005F3343 /* ViewController.swift */,
 				5762595A2317571B005F3343 /* Main.storyboard */,
 				5762595D2317571C005F3343 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				576259592317571B005F3343 /* ViewController.swift in Sources */,
 				576259572317571B005F3343 /* AppDelegate.swift in Sources */,
+				5762596923175900005F3343 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
